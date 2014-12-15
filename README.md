@@ -27,13 +27,13 @@ Could be done easily with Pageres (functionality for this will be added to this 
 https://www.npmjs.org/package/pageres
 
 # TODO:
-Change to gulp instead of Grunt
-Add better build step
-Add some kind of state handling for components
-Make everything more robust
-Refactor all the codes
-Add bootstrap 
-Add fontawesome
-Add placeholder images
-Add possibility to use other template engines and css precompilers
-
+* Change to gulp instead of Grunt
+* Add better build step
+* Add some kind of state handling for components
+* Make everything more robust
+* Refactor all the codes
+* Add bootstrap 
+* Add fontawesome
+* Add placeholder images
+* Add possibility to use other template engines and css precompilers
+* Add better examples, more components and use cases
