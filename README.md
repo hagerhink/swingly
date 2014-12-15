@@ -2,9 +2,20 @@
 A wireframing/prototype workflow with reusable components and automated styleguide generation. Currently, it is very much a hack. The main idea is to enable a developer to quickly make prototypes with reusable components using express, handlebars (with swag) and scss. The markup and the styling are both mainly defined in the css (markup in comments of the css) in order to keep everything more tightly coupled. Javascript functionality is a second-class citizen using this workflow/tool. The main focus should be on solving responsive behavoir, layout and user flows.
 
 # Usage
-After compiling css, restart server ... two times ... to generate components (saving app.js restarts server). This _clearly_ needs to be improved/handled in build step. The generated styleguide can be found under /styleguide.
+After compiling css, restart server ... two times ... to generate components (saving app.js restarts server). This _clearly_ needs to be improved/handled in build step. The generated styleguide can be found under /styleguide. Pressing 'G' toggles grayscale, 'C' adds borders to components.
 
-Pressing 'G' toggles grayscale, 'C' adds borders to components.
+##### Component definition example
+```css
+/* 
+	<div class="example-component component">
+		<h2>This is an example component</h2>
+		<p>Wow. Such reusability.</p>
+	</div>
+*/
+.example-component {
+     padding:1em;
+}
+```
 
 # Setup
 You'll need node and ruby (for Compass, Scss):
