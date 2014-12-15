@@ -1,0 +1,33 @@
+/* 
+	<div class="example-list component">
+		<h2>This is an example list</h2>
+		<ul>
+			{{#each coolItems}}
+				{{> example-list-item}}
+			{{/each}}
+		</ul>
+	</div>
+*/
+.example-list {
+	padding:$default-offset;
+	background-color:$color-black;
+	color:$color-white;
+	overflow:hidden;
+}
+
+/* 
+	<li class="example-list-item component">
+		<h4>{{default heading "Heading"}}</h4>
+		<p class="p2">{{default subtitle "Subtitle"}}</p>
+	</li>
+*/
+.example-list-item {
+	background-color:$color-white;
+	color:$color-black;
+	padding:$default-offset;
+	margin-bottom:$default-offset/2;
+
+	&:nth-of-type(odd) {
+		background-color:$color-grey;
+	}
+}

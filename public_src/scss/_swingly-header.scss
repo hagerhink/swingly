@@ -1,0 +1,10 @@
+/*
+	<header class="swingly-header component">
+	    <h5>Swingly<span class="p3"> - Rapid prototyping in the browser</span></h5>
+	</header>
+*/
+.swingly-header {
+	overflow:hidden;
+	padding:$default-offset/2 $default-offset;
+	border-bottom:2px solid $color-black;
+}

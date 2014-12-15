@@ -1,0 +1,70 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	font-size:10px;
+
+	@media #{$mq-large} {
+		font-size:16px;
+	}
+}
+
+body.grayscale {
+  -webkit-filter: grayscale(1); 
+
+  //TODO: Add placeholder images?
+}
+
+* {
+   @include box-sizing(border-box);
+}
+
+.container {
+	max-width:1280px;
+	margin:0 auto;
+	padding:$default-offset;
+}
+
+h1, h2, h3, h4, h5, p, .p2, .p3, .p4 {
+	line-height:1.25;
+}
+
+.styleguide {
+	margin-left:10px;
+	margin-right:10px;
+
+	.styleguide-h1 {
+		font-size:3em;
+		text-align:center;
+		line-height:1.5;
+	}
+
+	.styleguide-h2 {
+		font-size:2em;
+		border-bottom:1px solid black;
+		margin-bottom:0.5em;
+		margin-top:1em;
+		line-height:1.5;
+	}
+
+	.styleguide-h3 {
+		margin-top:1em;
+		margin-bottom:0.3em;
+	}
+
+	.component-list {
+	}
+
+	.component-list-item {
+		position:relative;
+	}
+
+	.component > * {
+		position:relative !important;
+	}
+}
+
+.highlight-components {
+	.component {
+		border:1px solid red;
+	}
+}

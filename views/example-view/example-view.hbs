@@ -1,0 +1,9 @@
+{{!< ../base}}
+<div class="container">
+  <h3>Example view</h3>	
+  {{> example-component}}
+  {{#if show-extra-examples}}
+  	<h4>This is an extra example</h4>
+  	{{> example-component}}
+  {{/if}}
+</div>

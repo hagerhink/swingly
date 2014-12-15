@@ -1,0 +1,28 @@
+@import "compass";
+@import "compass/reset";
+@import "variables";
+@import "swingly";
+@import "typography";
+
+//Components can be defined in separate files for modularity
+@import "example-list";
+@import "swingly-header";
+
+//Or in one file for easy access
+/* 
+	<div class="example-component component">
+		<h2>This is an example component</h2>
+		<p>Wow. Such reusability.</p>
+		<h4><a href="/views/example-view">Show another example view</a></h4>
+		<h4><a href="/styleguide">Take me to the styleguide</a></h4>
+		{{#if showCoolThings}}
+			<p>This is only shown if the project is configured to show cool things</p>
+		{{/if}}
+	</div>
+*/
+.example-component {
+	padding:$default-offset;
+	background-color:$color-blue;
+	margin-bottom:$default-offset;
+}
+

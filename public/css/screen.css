@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 10px; }
+  @media only screen and (min-width: 800px) {
+    body {
+      font-size: 16px; } }
+
+body.grayscale {
+  -webkit-filter: grayscale(1); }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2em; }
+
+h1, h2, h3, h4, h5, p, .p2, .p3, .p4, .p4 {
+  line-height: 1.25; }
+
+.styleguide {
+  margin-left: 10px;
+  margin-right: 10px; }
+  .styleguide .styleguide-h1 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.5; }
+  .styleguide .styleguide-h2 {
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    line-height: 1.5; }
+  .styleguide .styleguide-h3 {
+    margin-top: 1em;
+    margin-bottom: 0.3em; }
+  .styleguide .component-list-item {
+    position: relative; }
+  .styleguide .component > * {
+    position: relative !important; }
+
+.highlight-components .component {
+  border: 1px solid red; }
+
+h1 {
+  font-size: 30px; }
+  @media only screen and (min-width: 550px) {
+    h1 {
+      font-size: 48px; } }
+  @media only screen and (min-width: 800px) {
+    h1 {
+      font-size: 58px; } }
+  @media only screen and (min-width: 970px) {
+    h1 {
+      font-size: 62px; } }
+  @media only screen and (min-width: 1280px) {
+    h1 {
+      font-size: 72px; } }
+
+h2 {
+  font-size: 26px; }
+  @media only screen and (min-width: 550px) {
+    h2 {
+      font-size: 42px; } }
+  @media only screen and (min-width: 800px) {
+    h2 {
+      font-size: 38px; } }
+  @media only screen and (min-width: 970px) {
+    h2 {
+      font-size: 42px; } }
+  @media only screen and (min-width: 1280px) {
+    h2 {
+      font-size: 52px; } }
+
+h3 {
+  font-size: 24px; }
+  @media only screen and (min-width: 550px) {
+    h3 {
+      font-size: 32px; } }
+  @media only screen and (min-width: 800px) {
+    h3 {
+      font-size: 24px; } }
+  @media only screen and (min-width: 970px) {
+    h3 {
+      font-size: 32px; } }
+  @media only screen and (min-width: 1280px) {
+    h3 {
+      font-size: 42px; } }
+
+h4 {
+  font-size: 20px; }
+  @media only screen and (min-width: 550px) {
+    h4 {
+      font-size: 24px; } }
+  @media only screen and (min-width: 800px) {
+    h4 {
+      font-size: 20px; } }
+  @media only screen and (min-width: 970px) {
+    h4 {
+      font-size: 24px; } }
+  @media only screen and (min-width: 1280px) {
+    h4 {
+      font-size: 32px; } }
+
+h5 {
+  font-size: 16px; }
+  @media only screen and (min-width: 550px) {
+    h5 {
+      font-size: 20px; } }
+  @media only screen and (min-width: 800px) {
+    h5 {
+      font-size: 18px; } }
+  @media only screen and (min-width: 970px) {
+    h5 {
+      font-size: 20px; } }
+  @media only screen and (min-width: 1280px) {
+    h5 {
+      font-size: 24px; } }
+
+p {
+  font-size: 15px; }
+  @media only screen and (min-width: 550px) {
+    p {
+      font-size: 18px; } }
+  @media only screen and (min-width: 800px) {
+    p {
+      font-size: 16px; } }
+  @media only screen and (min-width: 970px) {
+    p {
+      font-size: 17px; } }
+  @media only screen and (min-width: 1280px) {
+    p {
+      font-size: 18px; } }
+
+.p2 {
+  font-size: 13px; }
+  @media only screen and (min-width: 550px) {
+    .p2 {
+      font-size: 15px; } }
+  @media only screen and (min-width: 800px) {
+    .p2 {
+      font-size: 13px; } }
+  @media only screen and (min-width: 970px) {
+    .p2 {
+      font-size: 14px; } }
+  @media only screen and (min-width: 1280px) {
+    .p2 {
+      font-size: 15px; } }
+
+.p3, .p4 {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+/* 
+	<div class="example-list component">
+		<h2>This is an example list</h2>
+		<ul>
+			{{#each coolItems}}
+				{{> example-list-item}}
+			{{/each}}
+		</ul>
+	</div>
+*/
+.example-list {
+  padding: 2em;
+  background-color: #262626;
+  color: #e5e5e5;
+  overflow: hidden; }
+
+/* 
+	<li class="example-list-item component">
+		<h4>{{default heading "Heading"}}</h4>
+		<p class="p2">{{default subtitle "Subtitle"}}</p>
+	</li>
+*/
+.example-list-item {
+  background-color: #e5e5e5;
+  color: #262626;
+  padding: 2em;
+  margin-bottom: 1em; }
+  .example-list-item:nth-of-type(odd) {
+    background-color: #7f7f7f; }
+
+/*
+	<header class="swingly-header component">
+	    <h5>Swingly<span class="p3"> - Rapid prototyping in the browser</span></h5>
+	</header>
+*/
+.swingly-header {
+  overflow: hidden;
+  padding: 1em 2em;
+  border-bottom: 2px solid #262626; }
+
+/* 
+	<div class="example-component component">
+		<h2>This is an example component</h2>
+		<p>Wow. Such reusability.</p>
+		<h4><a href="/views/example-view">Show another example view</a></h4>
+		<h4><a href="/styleguide">Take me to the styleguide</a></h4>
+		{{#if showCoolThings}}
+			<p>This is only shown if the project is configured to show cool things</p>
+		{{/if}}
+	</div>
+*/
+.example-component {
+  padding: 2em;
+  background-color: #74bfc1;
+  margin-bottom: 2em; }
